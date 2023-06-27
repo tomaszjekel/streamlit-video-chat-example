@@ -184,7 +184,7 @@ def main():
             server_state["mix_track"] = create_mix_track(
                 kind="video", mixer_callback=mixer_callback, key="mix"
             )
-    server_state["mix_track"]="test"
+    server_state["mix_track"]='test'
     
     mix_track = server_state["mix_track"]
 
